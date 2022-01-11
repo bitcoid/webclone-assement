@@ -4,17 +4,10 @@
   </q-layout>
 </template>
 
-<script> 
-import { defineComponent, ref } from 'vue'
-
-export default defineComponent({
-  name: 'BlankLayout', 
-  components: {
-     
-  },
-
-  setup () {
-     
-  }
-})
+<script>
+import Header from './Header'
+import Footer from './Footer'
+export default {
+    component:{Header,Footer}
+}
 </script>
