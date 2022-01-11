@@ -45,6 +45,34 @@
                                 <q-icon name="info_outline" size="25px" color="grey" /> 
                                 Order fee of Rp3.000 applies for this restaurant.
                             </div> 
+                            <div class="row">
+                                <q-select                                      
+                                    outlined  
+                                    v-model="model" 
+                                    :options="options" 
+                                    label="Delivery Date : Today"  
+                                    dense
+                                    :options-dense="denseOpts"
+                                    class="col-6"
+                                >
+                                    <template v-slot:prepend>
+                                        <q-icon name="date_range" />
+                                    </template> 
+                                </q-select>
+                                <q-select                                      
+                                    outlined  
+                                    v-model="model" 
+                                    :options="options" 
+                                    label="Delivery Time : Now"  
+                                    dense
+                                    :options-dense="denseOpts"
+                                    class="col-6 q-px-sm"
+                                >
+                                    <template v-slot:prepend>
+                                        <q-icon name="access_time" />
+                                    </template> 
+                                </q-select>
+                            </div>
                     </q-item-label> 
                 </q-item-section> 
             </q-item>

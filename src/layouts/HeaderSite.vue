@@ -82,9 +82,10 @@ export default {
     border-radius: 10px;
     color: #000;
     font-size: 14px;
-    width: 340px;
+    width: 350px;
     left:130px;
     box-shadow: 0px 10px 15px 4px rgba(0,0,0,0.1);
+    font-weight: bold;
   }
 
   :deep(.popper #arrow::before) {
