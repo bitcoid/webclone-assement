@@ -22,9 +22,11 @@
     "qrcode.vue": "^3.3.3",
     "quasar": "^2.0.0",
     "swiper": "^7.3.1",
+    "v-tooltip": "^3.0.0-beta.14",
     "vue-chart-3": "^3.0.4",
     "vue-chartjs": "^3.5.1",
     "vue-i18n": "^9.0.0",
+    "vue3-popper": "^1.4.1",
     "vuex": "^4.0.1"
   },
   "devDependencies": {

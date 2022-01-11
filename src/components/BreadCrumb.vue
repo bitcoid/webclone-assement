@@ -2,9 +2,9 @@
     <q-breadcrumbs class="text-brown my-Oxygen q-pl-lg" >
       <template v-slot:separator>
         <q-icon
-          size="1.5em"
+          size="1.2em"
           name="arrow_forward_ios"
-          color="primary"
+          color="grey"
         />
       </template>
 
