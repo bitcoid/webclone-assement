@@ -79,21 +79,7 @@ export default {
             if(window.scrollY > 400)
                 this.isAddClass = true;
             else
-                this.isAddClass = false;
-            /*
-            if (this.lastPosition < window.scrollY && this.limitPosition < window.scrollY) {
-                this.scrolled = true;
-                // move up!
-            } 
-            
-            if (this.lastPosition > window.scrollY) {
-                this.scrolled = false; 
-                // move down
-            }
-            */
-            
-            //this.lastPosition = window.scrollY;
-            //this.scrolled = window.scrollY > 250;
+                this.isAddClass = false; 
         }
     } 
 }
