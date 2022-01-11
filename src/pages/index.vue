@@ -53,7 +53,7 @@
                                     label="Delivery Date : Today"  
                                     dense
                                     :options-dense="denseOpts"
-                                    class="col-6"
+                                    class="col-4"
                                 >
                                     <template v-slot:prepend>
                                         <q-icon name="date_range" />
@@ -66,24 +66,36 @@
                                     label="Delivery Time : Now"  
                                     dense
                                     :options-dense="denseOpts"
-                                    class="col-6 q-px-sm"
+                                    class="col-4 q-px-sm"
                                 >
                                     <template v-slot:prepend>
                                         <q-icon name="access_time" />
                                     </template> 
-                                </q-select>
-                            </div>
+                                </q-select> 
+                            </div> 
+                             
+                            <!--tab na intersect-->  
+                           <div class="row">
+                               <div class="col-11">
+                                   <tab-nav />
+                               </div>
+                           </div>
+
                     </q-item-label> 
                 </q-item-section> 
             </q-item>
         </q-list>
+
+       
+       
         
     </div>
 </template>
 <script> 
-import BreadCrumb from 'components/BreadCrumb' 
+import BreadCrumb from 'components/BreadCrumb'
+import TabNav from 'components/TabNav'
 export default {
-    components:{BreadCrumb}
+    components:{BreadCrumb, TabNav}
 }
 </script>
 
