@@ -1,6 +1,6 @@
-# Laporbosqu (laporbosquapps)
+# glovory (glovory)
 
-Lapor bosku aplikasi feeback
+web clone glovory
 
 ## Install the dependencies
 ```bash
