@@ -1,7 +1,7 @@
 <template>
     <q-header class="bg-white">
-        <q-toolbar class="q-ma-lg"> 
-          <img src="~assets/logo.png"/>
+        <q-toolbar class="q-ma-lg" style="padding-left:35px;"> 
+            <img src="~assets/logo.png"/>
              
             <!-- location Search -->
             <q-input 
@@ -12,7 +12,7 @@
               dense
               class="q-py-xs q-pl-xl col-4"
               @focus="MapSearch" 
-              @blur="MapSearch" 
+              @blur="MapSearch"
             > 
               <template v-slot:prepend v-if="isVisible">
                 <q-icon 
