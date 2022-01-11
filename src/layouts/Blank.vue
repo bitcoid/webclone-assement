@@ -1,13 +1,15 @@
 <template>
   <q-layout view="lHh Lpr lFf"> 
-      <router-view /> 
+      <header-site/>
+        <router-view /> 
+      <footer-site/> 
   </q-layout>
 </template>
 
 <script>
-import Header from './Header'
-import Footer from './Footer'
-export default {
-    component:{Header,Footer}
-}
+  import HeaderSite from './HeaderSite'
+  import FooterSite from './FooterSite'
+  export default {
+    components:{ HeaderSite, FooterSite}
+  }
 </script>
