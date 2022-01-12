@@ -1,5 +1,5 @@
 <template>
-    <q-breadcrumbs class="text-brown my-Oxygen q-pl-lg" >
+    <q-breadcrumbs class="text-brown my-Oxygen">
       <template v-slot:separator>
         <q-icon
           size="1.2em"

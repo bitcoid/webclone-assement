@@ -1,6 +1,6 @@
 <template>
-    <q-header class="bg-white">
-        <q-toolbar class="q-ma-lg" style="padding-left:35px;"> 
+    <q-header class="bg-white" style="height:140px;z-index:1">
+        <q-toolbar class="q-ma-lg" style="padding-left:58px;"> 
             <img src="~assets/logo.png"/>
              
             <!-- location Search --> 
