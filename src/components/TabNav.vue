@@ -4,7 +4,7 @@
                 <div style="width:99%; margin-top:-50px;">
                       <q-tabs
                             v-model="tab" 
-                            :class="{ 'newClass': isAddClass }" 
+                            :class="{ 'newClass q-tab__label': isAddClass }" 
                             v-scroll="handleScroll"  
                             outside-arrows
                             mobile-arrows
@@ -16,7 +16,7 @@
                                 :label="rows" 
                                 no-caps
                                 class="q-pr-lg"
-                                @click="goto(rows)"
+                                @click="goto(rows)" 
                             /> 
                         
                         </q-tabs>

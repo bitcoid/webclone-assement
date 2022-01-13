@@ -21,7 +21,8 @@
 } 
 
 .q-tab__label {
-   font-size:16px;
+   font-size:15px;
+   color:#ccc;
    font-weight:bold;
    color:#32C36E;
 }
@@ -35,8 +36,8 @@
   left:30; 
   z-index:1; 
   background:#ffffff;
-}
-
+  color:#32C36E;
+}  
 
 /*footer*/
 .col_white_amrc { color:#000;}
