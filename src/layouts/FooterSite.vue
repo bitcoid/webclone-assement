@@ -68,10 +68,54 @@
                     </ul>
                 <!--footer_ul_amrc ends here-->
                 </div> 
+            </div> 
+        </div> 
+    </footer>
+    <div class="footer-2 my-Oxygen"> 
+        <div class="text-subtitle1 text-white text-bold">Countries with GrabFood</div>
+        <div class="row">
+            <div class="col-8">
+                <ul class="foote_bottom_ul_amrc"> 
+                    <li><a href="">Indonesia |</a></li>
+                    <li><a href="">Philippines |</a></li>
+                    <li><a href="">Thailand |</a></li>
+                    <li><a href="">Vietnam |</a></li>
+                    <li><a href="">Singapore |</a></li>
+                    <li><a href="">Malaysia |</a></li>
+                    <li><a href="">Myanmar</a></li>
+                </ul> 
+                
+                <div class="text-subtitle1 text-grey q-py-lg">© Grab 2022</div>
+                <ul class="foote_bottom_ul_amrc">  
+                    <li><a href="#">Terms of Service</a></li> 
+                    <li><span class="dot"></span></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>  
             </div>
+            <div class="col-3">
+                <ul class="foote_bottom_ul_amrc" style="text-align:right"> 
+                    <li><a href=""><q-img 
+                            src="~assets/fb.png"
+                            style="width:50px;"
+                        /> </a>
+                    </li> 
+                    <li><a href=""><q-img 
+                            src="~assets/ig.png"
+                            style="width:50px;"
+                        /> </a>
+                    </li>
+                    <li><a href=""><q-img 
+                            src="~assets/twitter.png"
+                            style="width:50px;"
+                        /> </a>
+                    </li>
+                </ul>  
+            </div>
+        </div>
     </div>
- 
-</footer>
+
+
+
 </template>
 <script>
 export default {

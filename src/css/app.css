@@ -57,3 +57,26 @@ footer p { font-size:13px; color:#000; padding-bottom:0px; margin-bottom:8px;}
 .footer_ul2_amrc li i { margin-top:5px;}
 
 .bottom_border { margin-top:-50px; }  
+
+/*footer 2 */
+.footer-2 { width:100%; background-color:#282d32; min-height:200px; padding:10px 0px 0px 70px ; }
+.foote_bottom_ul_amrc {
+	list-style-type:none;
+	padding:0px; 
+	margin-top: 10px;
+	margin-right: auto;
+	margin-bottom: 10px;
+	margin-left: auto;
+}
+.foote_bottom_ul_amrc li { display:inline;}
+.foote_bottom_ul_amrc li a { color:#fff; padding-right:10px; text-decoration:none;}
+
+.dot {
+  height: 5px;
+  width: 5px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right:15px;
+  margin-top:-20px;
+}

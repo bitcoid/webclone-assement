@@ -80,6 +80,7 @@
                 </q-item-section> 
             </q-item>
         </q-list>
+        
     </q-page>
 </template>
 <script>

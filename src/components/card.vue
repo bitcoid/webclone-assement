@@ -2,7 +2,7 @@
     <div class="row my-Oxygen" style="margin-left:-10px;">
           <div class="col-4 q-pa-sm" v-for="n in 5" :key="n">
               <q-card 
-                  class="my-card"
+                  v-ripple class="my-box cursor-pointer q-hoverable"
                   flat
               >
                   <q-card-section horizontal>
@@ -35,3 +35,8 @@ export default {
     
 }
 </script>
+<style scoped>
+.my-box:hover { 
+  border:1px solid green;
+}
+</style>

@@ -3,7 +3,14 @@
         <header-site/>
         <content-header/>
         <q-page-container style="background:#F7F7F7;"> 
-            <router-view /> 
+            <router-view />
+            <center>
+            <div class="text-caption text-grey-7 q-pb-lg">
+              We're always working to get the most accurate information. 
+              <a href="#" style="text-decoration:none;" class="text-blue-5">Let us know </a>
+              if you come across anything that's outdated!
+            </div>
+            </center>
         </q-page-container>
         <footer-site/>
   </q-layout>
