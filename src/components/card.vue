@@ -21,7 +21,26 @@
                             Goreng Krispi Campur Gurita, Udang, & Cumi (Octopus, ..)
                         </div>
                         <div class="text-right">
-                           <q-btn color="green" class="text-white" icon="add" dense/>
+                            <Popper arrow placement="bottom-end" class="my-Oxygen" >
+                                <q-btn color="green" class="text-white" icon="add" dense/>
+                                <template #content> 
+                                   <div class="row">
+                                       <div class="col-7">
+                                            Please login to add this item to your basket.
+                                       </div>
+                                       <div class="col-5">
+                                           <q-btn 
+                                           color="green-9" 
+                                           class="text-white q-pa-sm" 
+                                           label="Login/Sign Up" 
+                                           dense
+                                           no-caps
+                                           />
+                                       </div>
+                                   </div>
+                                </template>
+                            </Popper>  
+                           
                         </div>
                       </q-card-section> 
                   </q-card-section> 
@@ -31,12 +50,38 @@
     </div> 
 </template>
 <script>
+import Popper from "vue3-popper";
 export default {
+    components:{Popper},
     
 }
 </script>
 <style scoped>
+
 .my-box:hover { 
   border:1px solid green;
+  border-box: box-sizing;
 }
-</style>
+
+:deep(.popper) {
+    background: #FFF;
+    padding: 15px;
+    border-radius: 10px;
+    color: #000;
+    font-size: 14px;
+    width: 350px;
+    left:130px;
+    box-shadow: 0px 10px 15px 4px rgba(0,0,0,0.1);
+    font-weight: bold;
+  }
+
+  :deep(.popper #arrow::before) {
+    background: #FFF;
+    left:-5px;
+  }
+
+  :deep(.popper:hover),
+  :deep(.popper:hover > #arrow::before) {
+    background: #FFF;
+  }
+</style> 
