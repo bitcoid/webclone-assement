@@ -105,14 +105,4 @@ export default {
         }
     } 
 }
-</script>
-<style lang="sass" scoped>
- 
-
-.example-area
-  height: 100%
-
-.example-filler
-  height: 300px 
- 
-</style>
+</script> 

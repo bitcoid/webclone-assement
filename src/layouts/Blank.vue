@@ -5,7 +5,7 @@
         <q-page-container style="background:#F7F7F7;"> 
             <router-view /> 
         </q-page-container>
-      <footer-site/> 
+        <footer-site/>
   </q-layout>
 </template>
 
